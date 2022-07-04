@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/fondoHeader.jpg);
+        background-size: contain;
+        background-color: #272424b4;
+        img{
+            width: 150px;
+            margin: 0;
+            padding-top: 50px;
+        }
+        a{
+            color: purple;
+            font-size: 1.5rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin: 1rem 0;
+        }
+        h1{
+            margin: 0;
+            background-color: #C4C4C4;
+            color: #005677;
+            width: 100vw;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+    main{
+        .tituloSeccion{
+            text-transform: uppercase;
+            background-color: #C4C4C4;
+            color: #005677;
+            margin: 10px 0;
+        }
+        .negrita{
+            font-weight: bold;
+        }
+        .nobull{
+            list-style-type: none;
+            padding: 1vw;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        background-color: #005677;
+        color: white;
+        a{
+            color: purple;
+            i{
+                padding: 5px;
+            }
+        }
+    }
+}
